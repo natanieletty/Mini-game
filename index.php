@@ -57,7 +57,8 @@ $_SESSION['enemy_hp'] =10;
 
 
 <!-- Посилання на початок гри -->
-<p><a href="index.php" class="button">Почати гру заново</a></p>
+<!-- <p><a href="index.php" class="button">Почати гру заново</a></p> -->
+<p><a href="game1over.php" class="button">Почати гру заново</a></p>
 
 
 

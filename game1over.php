@@ -28,7 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Перевіряємо кінець гри
     if ($_SESSION['player_hp'] <= 0 || $_SESSION['enemy_hp'] <= 0) {
-        header("Location: game1over.php");
+        // header("Location: game1over.php");
+        header("Location: index.php");
         exit();
     }
 }
